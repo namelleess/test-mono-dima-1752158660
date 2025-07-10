@@ -1,0 +1,311 @@
+{
+    "en": {
+        "styles": {
+            "bg": "#2c031b",
+            "bg-light": "#2c031b",
+            "main-bg": "#c13317",
+            "text": "#ffffff",
+            "text-black": "#ffffff",
+            "table-head": "#2c031b",
+            "text-head": "#ffffff",
+            "hero-title-text": "#ffffff",
+            "welcome-bonus-text": "#fb333d",
+            "yellow": "#03d8ec",
+            "yellow-button": "#ff8a00",
+            "button-text": "#2c031b",
+            "border-color": "#efefdc",
+            "casino-cards": "#700e41",
+            "bonus-border-head": "#efefdc",
+            "bonus-border": "#000033",
+            "pay-back": "#700e41",
+            "providers-back": "#700e41",
+            "faq-label": "#700e41",
+            "bg-footer": "#2c031b",
+            "copyright": "#e7e7d5",
+            "baseFont": {
+                "value": "http:\/\/159.223.4.88:8000\/api\/fonts\/download\/10",
+                "isCustom": true
+            },
+            "primaryFont": {
+                "value": "http:\/\/159.223.4.88:8000\/api\/fonts\/download\/10",
+                "isCustom": true
+            }
+        },
+        "seo": {
+            "title": "Aztec Wins Casino UK \u2013 Slot Games, Bonuses, and Secure Payments",
+            "description": "Aztec Wins Casino UK offers themed slots, live games, and trusted payment methods. Claim your welcome bonus today and explore daily promotions with fast withdrawals.",
+            "canonical": "https:\/\/aztecwins-online.com\/",
+            "ogImage": "http:\/\/159.223.4.88:8000\/api\/images\/download\/79",
+            "ogImageWidth": 1200,
+            "ogImageHeight": 630,
+            "twitterSite": "aztecwins-online.com",
+            "favicon": "http:\/\/159.223.4.88:8000\/api\/images\/download\/80",
+            "keywords": ""
+        },
+        "icons": {
+            "icon192": "https:\/\/paf-casino-online.com\/icons\/icon-192x192.webp"
+        },
+        "header": {
+            "logo": "http:\/\/159.223.4.88:8000\/api\/images\/download\/60",
+            "logoAlt": "Aztec Wins Logo"
+        },
+        "nav": {
+            "signUp": "Sign Up",
+            "playNow": "Play Now"
+        },
+        "hero": {
+            "title": "Welcome Bonus",
+            "textDesktop": "Exclusive welcome offer of",
+            "textMobile": "Exclusive welcome bonus of",
+            "playGame": "Play game",
+            "claimBonus": "Claim Bonus",
+            "image": "http:\/\/159.223.4.88:8000\/api\/images\/download\/61",
+            "mobileImage": "https:\/\/paf-casino-online.com\/images\/hero-mobile.webp"
+        },
+        "topCasino": {
+            "title": "Top Casino",
+            "allCasino": "All Casino"
+        },
+        "bonusDetails": {
+            "title": "Bonus Details",
+            "casino": "Casino",
+            "bonuses": "Bonuses",
+            "rate": "Rate",
+            "freeSpins": "Free Spins",
+            "moreInfo": "More Info",
+            "get": "Get",
+            "refresh": "Refresh"
+        },
+        "advantages": {
+            "title": "Advantages",
+            "items": [
+                "Wide selection of slots and table games",
+                "Live dealer options available",
+                "Licensed and regulated platform",
+                "User\u2011friendly interface and mobile compatibility",
+                "Multiple secure payment methods",
+                "Regular promotions and loyalty rewards",
+                "Strong customer support channels"
+            ],
+            "knowMore": "Know more",
+            "appTitle": "Aztec Wins Casino APP",
+            "mobile": "http:\/\/159.223.4.88:8000\/api\/images\/download\/74",
+            "mobileAlt": "Mobile App"
+        },
+        "games": {
+            "title": "Top Games",
+            "allGames": "All Games"
+        },
+        "about": {
+            "history": {
+                "title": "Aztec Wins",
+                "description1": "",
+                "items": [
+                    "50\u2013500 free spins",
+                    "Fluffy Fridays available",
+                    "500 free spins"
+                ],
+                "description2": "Aztec Wins is an online casino site that is great for gamers who want a fun and exciting place to play games. The site has a bright Aztec motif with a plethora of slots, table games, and live dealer alternatives from top software companies. The casino is licensed, which makes sure that the games are safe and fair. Aztec Wins is a fun and safe place for both new and expert gamers to play games and win prizes. It has easy-to-use navigation and a lot of promos.",
+                "image": "http:\/\/159.223.4.88:8000\/api\/images\/download\/75",
+                "imageSizeModifier": 0,
+                "imageYModifier": 0,
+                "imageXModifier": 0,
+                "imageAlt": "Aztec Wins Casino UK Desktop",
+                "description3": ""
+            },
+            "connect": {
+                "title": "Aztec Wins Casino Registration Process",
+                "description1": "Aztec Wins casino is a simple and safe registration process that gets gamers into the action instantly. Here is a short summary, followed by the actions you need to do to set up an account:",
+                "items": [
+                    "Visit the Aztec\u202fWins Casino homepage",
+                    "Click the \u201cRegister\u201d or \u201cSign Up\u201d button",
+                    "Enter personal details (name, birth date, email, phone)",
+                    "Choose a username, password, and currency",
+                    "Agree to terms, privacy policy, and age verification",
+                    "Complete captcha or anti-bot check",
+                    "Submit registration form",
+                    "Verify email or phone via confirmation link\/code",
+                    "Log in and access the account dashboard"
+                ],
+                "description2": "It should be easy and quick to complete Aztec Wins login. To login, visit the official website and click \u201cLogin\u201c at the top. A secure form opens where users input their email and password. Players may log in, deposit money, and play immediately if the information is correct. If you're new to the platform or using a new device, it may require two-step authentication or personal information validation."
+            },
+            "deposit1": {
+                "title": "Deposit Methods",
+                "description1": "You may deposit money at Aztec Wins Casino via Visa Debit, Mastercard Debit, Maestro, PayPal, Paysafecard, Pay by Mobile, Apple Pay, Google Pay, or an Instant Bank Transfer. The minimal deposit is \u00a310, and the money is added right away. All payments are made in GBP, and there are no costs for processing deposits made with a credit card or PayPal. Some prepaid methods, including Paysafecard and Pay by Mobile, may collect fees from other companies.",
+                "items": [],
+                "description2": ""
+            },
+            "deposit2": {
+                "title": "Withdrawal Methods",
+                "description1": "Players can take money out via Visa Debit, Mastercard Debit (if supported), Maestro, PayPal, Apple Pay, Google Pay, and Instant Bank Transfer. Aztec Wins withdrawal must be at least \u00a310, and there is a fixed processing charge of \u00a32.50. The currency is GBP. Requests go into a waiting period of up to 72 hours. After that, PayPal, Apple\/Google Pay, or e-wallet withdrawals usually go through within 24 hours. Card and bank transfers, on the other hand, might take 1 to 5 business days to go through.",
+                "items": [],
+                "description2": ""
+            }
+        },
+        "payMethod": {
+            "title": "Payment Methods",
+            "method": "Method",
+            "type": "Type",
+            "country": "Country",
+            "commission": "Commission",
+            "processingTime": "Processing Time",
+            "minimumDeposit": "Minimum Deposit",
+            "deposit": "Deposit"
+        },
+        "security": {
+            "title1": "Software Technologies",
+            "description1": "Aztec Wins Casino's robust Instant-Play technology enables you play on your PC or mobile device without downloading. It features games from over 20 leading brands, including NetEnt, Microgaming, Pragmatic Play, Evolution, Quickspin, Yggdrasil, Playtech, Blueprint Gaming, and more. This combination of various suppliers and Aztec Wins sister sites ensures over 1,000 high-quality slots, live-dealer tables, bingo rooms, scratchcards, and video poker alternatives.",
+            "title2": "Security",
+            "description2": "The casino is licensed by the UK and Alderney Gambling Control Commissions for strict control. Standard SSL encryption safeguards player data and transactions. Independent auditors like SQS Quality Testing check RNG and game fairness for integrity."
+        },
+        "softwareProviders": {
+            "title": "Software Providers"
+        },
+        "application": {
+            "title": "Casino App",
+            "description1": "No smartphone or desktop app for Aztec\u202fWins exists. Instead, responsive HTML5 technology enables players play smoothly in contemporary web browsers on PCs, smartphones, and tablets. Browser access is available for all functions, including live casino, bingo, and quick games.",
+            "image": "http:\/\/159.223.4.88:8000\/api\/images\/download\/76",
+            "imageSizeModifier": 0,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
+            "imageAlt": "Mobile Application"
+        },
+        "idioma": {
+            "title1": "Currencies",
+            "description1": "Aztec Wins takes British Pounds Sterling (GBP) and Euros (EUR), so players in different countries can use different currencies.",
+            "title2": "Languages",
+            "description2": "The site is exclusively available in English, which is its main audience in the UK and other English-speaking areas."
+        },
+        "faq": {
+            "title": "CASINO FAQ",
+            "items": [
+                {
+                    "title": "Can I reverse a withdrawal at Aztec Wins Casino?",
+                    "answer": "No, once a withdrawal is requested, it cannot be reversed during the pending period."
+                },
+                {
+                    "title": "Is there a loyalty or VIP program available?",
+                    "answer": "Yes, Aztec Wins uses a trophy-based rewards system that unlocks bonuses as you complete achievements."
+                },
+                {
+                    "title": "What types of slots are featured at Aztec Wins?",
+                    "answer": "The casino includes classic 3-reel slots, 5-reel video slots, Megaways, and progressive jackpots."
+                },
+                {
+                    "title": "Are there any deposit fees charged?",
+                    "answer": "Most deposit methods are free, but Pay by Mobile may include a carrier fee."
+                },
+                {
+                    "title": "How do I verify my identity for withdrawals?",
+                    "answer": "You must submit ID, proof of address, and proof of payment method to complete KYC verification."
+                }
+            ]
+        },
+        "availableGames": {
+            "title": "Games Available to Play at Aztec Wins Casino",
+            "description": "A varied game library at Aztec Wins Casino caters to all tastes. The platform's leading software suppliers assure seamless gameplay, brilliant visuals, and fairness across all titles. The UI lets players browse categories for contemporary video slots, live dealer action, or traditional card games.",
+            "column1": [
+                {
+                    "title": "Slot Machines and Jackpots",
+                    "description": "With over 1,500 games, the slot segment dominates the site. Players can play Aztec Bonanza, Aztec Gems Deluxe, Big Bass Bonanza, and Thunderstruck II. More than 100 Megaways slots provide hundreds of prize combinations with dynamic reels. Some of the 50 progressive slots offer networked jackpots. Game bet levels vary for low-stakes and expert players."
+                },
+                {
+                    "title": "Table Games and Casino Classics",
+                    "description": "Aztec Wins offers basic RNG table games for typical casino players, however less. European Blackjack, American Roulette, and Casino Solitaire include smooth graphics and simple controls. These games use random number generators for fast-paced gameplay without waiting for other players. The diversity is limited, but it meets the demands of single card and roulette players without live-streaming."
+                },
+                {
+                    "title": "Live Casino Experience",
+                    "description": "Live casinos immerse players in real-time engagement. Aztec Wins provides high-quality live dealer games with Pragmatic Play, Playtech, and OnAir Entertainment. Professional dealers, HD video broadcasts, and real-time chat are available at several blackjack and roulette tables. Popular varieties include European Roulette, Speed Blackjack, and Live Baccarat."
+                }
+            ],
+            "column2": [
+                {
+                    "title": "Bingo Rooms and Schedule",
+                    "description": "Bingo is peculiar to Aztec Wins. The platform has nine 75-ball, 80-ball, and 90-ball bingo rooms. Each room has its own schedule, admission fees, and prize pools. This format draws new and experienced bingo players who want a casual, community-oriented game. With clear game, time, and prize information, the bingo interface is easy to use."
+                },
+                {
+                    "title": "Instant Win Games and Scratchcards",
+                    "description": "Aztec Wins offers instant-win games and scratchcards. These games have simple rules and vivid graphics and typically offer results instantly. Casual users who desire rapid fun without learning are drawn to Scratchcards. They're fun and lighthearted alternatives to slots and live games when gamers wish to shake things up."
+                }
+            ]
+        },
+        "support": {
+            "title": "Support",
+            "description1": "Registered customers can get help from customer service by email and live chat. Unregistered visitors can't use the public Aztec Wins contact number feature, however the site has an extensive FAQ section that answers most typical questions. As a licensed operator, it also gives you access to responsible gambling tools and helplines.",
+            "items": [],
+            "description2": "",
+            "image": "http:\/\/159.223.4.88:8000\/api\/images\/download\/77",
+            "imageSizeModifier": 0,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
+            "imageAlt": "Support"
+        },
+        "bonuses": {
+            "title": "Aztec Wins Casino Bonuses and Promotions",
+            "description": "Aztec Wins Casino has a lot of cash bonuses, free spins, tournaments, and prize drawings for both new and old players. All promos have certain restrictions on how much you may bet and how much you can convert. Here is Aztec Wins review:",
+            "column1": [
+                {
+                    "title": "100% Match-Up Bonus (Welcome Offer)",
+                    "description": "Aztec Wins Casino offers 100% initial deposit match bonuses. This deal matches deposits up to \u00a3200. This Aztec Wins casino bonus requires a \u00a310 deposit. Winners must meet a 65\u00d7 wagering requirement before withdrawing bonus cash. This bonus may only be withdrawn up to the deposit amount, \u00a3250. This deal gives new customers a greater starting sum and straightforward withdrawal terms."
+                },
+                {
+                    "title": "Bonus + Free Spins with Code \u201cPRO\u201d",
+                    "description": "Free spins are awarded to players who deposit \u00a320 or more with the Aztec Wins promo code \u201cPRO\u201d. The offer gives 50\u2013500 Aztec Wins free spins on chosen slot games, depending on luck. The spin count is random. All spin earnings are converted to bonus dollars and subject to a 65\u00d7 wagering requirement. This Aztec Wins Casino promotion limits withdrawals to deposits up to \u00a3250, like others. Players making greater first deposits benefit from this code-based bonus."
+                },
+                {
+                    "title": "Rewards Reel",
+                    "description": "Aztec Wins Casino lets current players ride the Rewards Reel twice daily. This feature gives all funded accounts a chance to win free spins or other bonuses. Aztec Wins no deposit bonus is promptly added to the player's account after each spin. Bonus awards have a 65\u00d7 wagering requirement before being converted to cash. Winners from the Rewards Reel can withdraw up to \u00a3250 of their deposit. Daily Rewards Reel rewards for sustained play keep players engaged."
+                }
+            ],
+            "column2": [
+                {
+                    "title": "Fluffy Fridays",
+                    "description": "Fluffy Fridays is a weekly promotion from 8-11pm every Friday. During this time, slot game bettors automatically enter a weekly event prize pool. Depending on participation and activity, the prize pool can exceed \u00a31,000. The offer is open to all budgets because there is no minimum bet size. Bonus earnings from Fluffy Fridays have a 65\u00d7 wagering requirement and a cashout limit of the player's deposit up to \u00a3250. Weekly awards are guaranteed in this event with no extra steps."
+                },
+                {
+                    "title": "Trophy Rewards & Collect Trophies",
+                    "description": "Trophy Rewards encourage game goals. Trophy achievements include playing a certain number of games or unlocking a special feature. Free spins are awarded for five trophies. These free spins are bonus cash with a 65\u00d7 wagering requirement. Withdrawals are limited to lifetime deposits and \u00a3250, as with other site incentives. Staying active and exploring platform games is encouraged by this strategy."
+                },
+                {
+                    "title": "Turbo Reel",
+                    "description": "Players who deposit \u00a3100 or more receive the Turbo Reel incentive. The player gets one Turbo Reel spin, which can provide 50\u2013500 free spins on selected slots. Spins are randomly awarded as bonus cash. Spin winnings must meet the 65\u00d7 wagering requirement, and real-money withdrawals are limited to total deposits with a maximum payout of \u00a3250. This program is for high-deposit players who want more incentives with each qualifying transaction."
+                }
+            ]
+        },
+        "prosAndCons": {
+            "title": "Aztec Wins Casino Advantages",
+            "description": "Aztec Wins Casino has a lot of fun games and features that are meant to appeal to a wide range of gamers. Here is a short Aztec Wins casino review of its pros and cons:",
+            "pros": {
+                "title": "Advantages:",
+                "items": [
+                    "Wide selection of slots and table games",
+                    "Live dealer options available",
+                    "Licensed and regulated platform",
+                    "User\u2011friendly interface and mobile compatibility",
+                    "Multiple secure payment methods",
+                    "Regular promotions and loyalty rewards",
+                    "Strong customer support channels"
+                ]
+            },
+            "cons": {
+                "title": "Disadvantages:",
+                "items": [
+                    "Restricted access in certain jurisdictions",
+                    "Wagering requirements on bonuses",
+                    "No mobile app (browser\u2011only access)"
+                ]
+            }
+        },
+        "footer": {
+            "logo": "http:\/\/159.223.4.88:8000\/api\/images\/download\/78",
+            "copyright": "Aztec Wins Casino"
+        }
+    },
+    "langs": [
+        {
+            "code": "en",
+            "name": "\u0410\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439",
+            "isDefault": true
+        }
+    ]
+}

@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <script src="./index.js"></script>
+
+    <style>
+      @font-face {
+        font-family: "";
+        src: url("_assets/fonts/1752141578_Poppins-Bold.ttf");
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+    <style>
+      @font-face {
+        font-family: "";
+        src: url("_assets/fonts/1752141578_Poppins-Bold.ttf");
+        font-weight: normal;
+      }
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2">
+    <link rel="preload" as="image" href="_assets/images/1752140723_logo" fetchpriority="high">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="theme-color" content="">
+    <title>Aztec Wins Casino UK – Slot Games, Bonuses, and Secure Payments</title>
+    <meta name="description"
+      content="Aztec Wins Casino UK offers themed slots, live games, and trusted payment methods. Claim your welcome bonus today and explore daily promotions with fast withdrawals.">
+    <link rel="canonical" href="https://aztecwins-online.com/">
+    <meta property="og:title" content="Aztec Wins Casino UK – Slot Games, Bonuses, and Secure Payments">
+    <meta property="og:description"
+      content="Aztec Wins Casino UK offers themed slots, live games, and trusted payment methods. Claim your welcome bonus today and explore daily promotions with fast withdrawals.">
+    <meta property="og:url" content="https://aztecwins-online.com/">
+    <meta property="og:site_name" content="Aztec Wins Casino UK – Slot Games, Bonuses, and Secure Payments">
+    <meta property="og:locale" content="en">
+    <meta property="og:image" content="_assets/images/1752155211_og-image.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="aztecwins-online.com">
+    <meta name="twitter:title" content="Aztec Wins Casino UK – Slot Games, Bonuses, and Secure Payments">
+    <meta name="twitter:description"
+      content="Aztec Wins Casino UK offers themed slots, live games, and trusted payment methods. Claim your welcome bonus today and explore daily promotions with fast withdrawals.">
+    <meta name="twitter:image" content="_assets/images/1752155211_og-image.webp">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="630">
+    <link rel="icon" href="_assets/images/1752155358_logo" type="image/x-icon" sizes="16x16">
+    <meta name="language" content="en">
+    <link rel="apple-touch-icon" href="" sizes="96x96">
+    <link rel="icon" href="https://paf-casino-online.com/icons/icon-192x192.webp" type="image/webp" sizes="192x192">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="">
+    <link rel="icon" type="image/x-con" href="_assets/images/1752155358_logo">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="preload" href="https://paf-casino-online.com/images/hero-mobile.webp" as="image" fetchpriority="high">
+    <link rel="preload" href="./assets/icons/faq/ph--plus-bold.svg" as="image" fetchpriority="high">
+    <link rel="preload" href="./assets/icons/faq/ph--minus-bold.svg" as="image" fetchpriority="high">
+    <meta name="next-head-count" content="40">
+        <link rel="alternate" hreflang="x-default" href="index.html" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="headerBlock">
+          <div class="headerLogoContainer"><a href="/" aria-label="Main page"><img class="header__logo logo"
+            src="_assets/images/1752140723_logo" alt="Aztec Wins Logo" /></a></div>
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="casino.html?id=example-offer-id"
+              aria-label="Sign Up" id="navSignUp"> Sign Up </a></li>
+            <li class="nav__item nav__itemLarge"><a class="nav__link nav__linkLarge"
+              href="casino.html?id=example-offer-id" aria-label="Play Now" id="navPlayNow"> Play Now </a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <main class="main">
+        <section class="heroContainer">
+          <div class="hero">
+            <div class="heroBlock block">
+              <div class="heroGroup">
+                <h2 class="heroTitle">Welcome Bonus</h2>
+                <div class="heroTextGroup">
+                  <p class="heroText heroTextDesktop">Exclusive welcome offer of</p>
+                  <p class="heroText heroTextMobile">Exclusive welcome bonus of</p>
+                  <p class="heroText heroTextBonus" id="bonusText"></p>
+                </div><a class="heroLink" id="bonusLink" href="/" aria-label="Play game"><span
+                  class="heroButton btn btn--large">Claim Bonus</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="heroUnder"></div>
+        </section>
+        <div class="bonusesCircleContainer">
+          <section class="topCasino">
+            <div class="container">
+              <div class="topCasinoBlock block">
+                <h2 class="topCasinoTitle title"><span>Top Casino <span id="countryName"></span></span>
+                </h2>
+                <div class="topCasinoGroup" id="casinoCardContainer">
+                  <!-- Casino cards will be dynamically inserted here --></div><button
+                  class="topCasinoButton btn btn--large" id="showMoreButton"> All Casino </button>
+              </div>
+            </div>
+          </section>
+          <section class="bonusDetails" id="bonuses">
+            <div class="container">
+              <div class="bonusDetailsBlock block">
+                <h2 class="bonusDetailsTitle title"><span>Bonus Details</span></h2>
+                <div class="bonusDetailsGroup">
+                  <div class="bonusTable">
+                    <div class="bogradientContainer">
+                      <div class="bonusTableRow bonusTableHeader">
+                        <div class="bonusTableHead">
+                          <p class="bonusHeaderText bonusHeaderCasino">Casino</p>
+                        </div>
+                        <div class="bonusTableHead">
+                          <p class="bonusHeaderText bonusDetailsWelcome">Bonuses</p>
+                        </div>
+                        <div class="bonusTableHead">
+                          <p class="bonusHeaderText">Rate</p>
+                        </div>
+                        <div class="bonusTableHead">
+                          <p class="bonusHeaderText bonusHeaderTextSpins">Free Spins</p>
+                        </div>
+                        <div class="bonusTableHead">
+                          <p class="bonusHeaderText">More Info</p>
+                        </div>
+                        <div class="bonusTableHead">
+                          <p class="bonusHeaderText bonusClaimBonus">Get</p>
+                        </div>
+                      </div>
+                    </div><!-- Bonus rows will be dynamically inserted here -->
+                    <div id="bonusTableRows"></div>
+                  </div>
+                </div><button class="bonusDetailsButton btn btn--large" id="refreshButton"> Refresh
+                </button>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="advantagesCircleContainer">
+          <section class="advantages">
+            <div class="container">
+              <div class="advantagesBlock block">
+                <div class="advantagesDescription">
+                  <h2 class="advantagesTitle title">Advantages</h2>
+                  <ul class="advantagesList">
+                      <li class="advantagesItem"><img class="advantagesStar" width="30" height="29"
+                        src="./assets/images/advantages/star.png" alt="Casino advantages item" />
+                        <p class="advantagesText">Wide selection of slots and table games</p>
+                      </li>
+                      <li class="advantagesItem"><img class="advantagesStar" width="30" height="29"
+                        src="./assets/images/advantages/star.png" alt="Casino advantages item" />
+                        <p class="advantagesText">Live dealer options available</p>
+                      </li>
+                      <li class="advantagesItem"><img class="advantagesStar" width="30" height="29"
+                        src="./assets/images/advantages/star.png" alt="Casino advantages item" />
+                        <p class="advantagesText">Licensed and regulated platform</p>
+                      </li>
+                      <li class="advantagesItem"><img class="advantagesStar" width="30" height="29"
+                        src="./assets/images/advantages/star.png" alt="Casino advantages item" />
+                        <p class="advantagesText">User‑friendly interface and mobile compatibility</p>
+                      </li>
+                      <li class="advantagesItem"><img class="advantagesStar" width="30" height="29"
+                        src="./assets/images/advantages/star.png" alt="Casino advantages item" />
+                        <p class="advantagesText">Multiple secure payment methods</p>
+                      </li>
+                      <li class="advantagesItem"><img class="advantagesStar" width="30" height="29"
+                        src="./assets/images/advantages/star.png" alt="Casino advantages item" />
+                        <p class="advantagesText">Regular promotions and loyalty rewards</p>
+                      </li>
+                      <li class="advantagesItem"><img class="advantagesStar" width="30" height="29"
+                        src="./assets/images/advantages/star.png" alt="Casino advantages item" />
+                        <p class="advantagesText">Strong customer support channels</p>
+                      </li>
+                  </ul><a class="advantagesLink" id="advantagesLink" target="_blank" href="/" aria-label="Know more"><span
+                    class="advantagesButton btn btn--large">Know more</span></a>
+                </div>
+                <div class="advantagesMobile">
+                  <h2 class="advantagesTitle title advantagesAppTitle">Aztec Wins Casino APP</h2><img
+                    class="advantagesMobilePhone" src="_assets/images/1752153784_phone-web.webp" title="Mobile App"
+                    alt="Mobile App" />
+                  <div class="advantagesStoreGroup"><a href="/" id="appStoreLink" aria-label="Play game"
+                    target="_blank"><img class="advantagesStore" width="181" height="53"
+                      src="./assets/images/advantages/app-store.webp" alt="iOs App " title="Mobile App"/></a><a
+                      href="/" id="googlePlayLink" aria-label="Play game" target="_blank"><img
+                        class="advantagesStore" width="181" height="54" title="Mobile App"
+                        src="./assets/images/advantages/google-play.webp" alt="android App" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="games" id="games">
+            <div class="container">
+              <div class="gamesBlock block">
+                <h2 class="gamesTitle title"><span>Top Games</span></h2>
+                <div class="gamesGroup" id="gamesContainer"><!-- Games will be dynamically inserted here -->
+                </div><a class="gamesLink" id="allGamesLink" href="/" aria-label="All Games"><span
+                  class="gamesButton btn btn--large">All Games</span></a>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="historyCircleContainer">
+          <section class="history">
+            <div class="container">
+              <div class="historyBlock block">
+                <h1 class="historyTitle title">Aztec Wins</h1>
+                <div class="historyGroup">
+                  <div class="historyColumn">
+                    <div class="historyText">
+                      <p class="historyDescription"></p>
+                      <ul class="historyList">
+                          <li class="historyItem">50–500 free spins</li>
+                          <li class="historyItem">Fluffy Fridays available</li>
+                          <li class="historyItem">500 free spins</li>
+                      </ul>
+                      <p class="historyDescription">Aztec Wins is an online casino site that is great for gamers who want a fun and exciting place to play games. The site has a bright Aztec motif with a plethora of slots, table games, and live dealer alternatives from top software companies. The casino is licensed, which makes sure that the games are safe and fair. Aztec Wins is a fun and safe place for both new and expert gamers to play games and win prizes. It has easy-to-use navigation and a lot of promos.</p>
+                    </div>
+                  </div>
+                  <div class="historyColumn"><img class="historyImage" 
+                    src="_assets/images/1752154026_macbook-web.webp" alt="Aztec Wins Casino UK Desktop" /></div>
+                </div>
+                <p class="historyDescription"></p>
+              </div>
+            </div>
+          </section>
+
+          <section class="connect">
+            <div class="container">
+                <div class="connectBlock block">
+                  <h2 class="connectTitle title">Aztec Wins Casino Registration Process</h2>
+                  <div class="connectGroup">
+                    <p class="connectDescription">Aztec Wins casino is a simple and safe registration process that gets gamers into the action instantly. Here is a short summary, followed by the actions you need to do to set up an account:</p>
+                    <ul class="connectList">
+                        <li class="connectItem">Visit the Aztec Wins Casino homepage</li>
+                        <li class="connectItem">Click the “Register” or “Sign Up” button</li>
+                        <li class="connectItem">Enter personal details (name, birth date, email, phone)</li>
+                        <li class="connectItem">Choose a username, password, and currency</li>
+                        <li class="connectItem">Agree to terms, privacy policy, and age verification</li>
+                        <li class="connectItem">Complete captcha or anti-bot check</li>
+                        <li class="connectItem">Submit registration form</li>
+                        <li class="connectItem">Verify email or phone via confirmation link/code</li>
+                        <li class="connectItem">Log in and access the account dashboard</li>
+                    </ul>
+                    <p class="connectDescription">It should be easy and quick to complete Aztec Wins login. To login, visit the official website and click “Login“ at the top. A secure form opens where users input their email and password. Players may log in, deposit money, and play immediately if the information is correct. If you're new to the platform or using a new device, it may require two-step authentication or personal information validation.</p>
+                  </div>
+                </div>
+            </div>
+          </section>
+
+          <section class="deposit">
+            <div class="container">
+              <div class="depositBlock block">
+                <div class="depositGroup">
+                  <div class="depositColumn">
+                    <h2 class="depositTitle title"> Deposit Methods </h2>
+                    <p class="depositDescription"> You may deposit money at Aztec Wins Casino via Visa Debit, Mastercard Debit, Maestro, PayPal, Paysafecard, Pay by Mobile, Apple Pay, Google Pay, or an Instant Bank Transfer. The minimal deposit is £10, and the money is added right away. All payments are made in GBP, and there are no costs for processing deposits made with a credit card or PayPal. Some prepaid methods, including Paysafecard and Pay by Mobile, may collect fees from other companies. </p>
+                    <ul class="depositList">
+                    </ul>
+                    <p class="depositDescriptionLast">  </p>
+                  </div>
+                  <div class="depositColumn">
+                    <h2 class="depositTitle depositWithdrawTitle title"> Withdrawal Methods </h2>
+                    <p class="depositDescription"> Players can take money out via Visa Debit, Mastercard Debit (if supported), Maestro, PayPal, Apple Pay, Google Pay, and Instant Bank Transfer. Aztec Wins withdrawal must be at least £10, and there is a fixed processing charge of £2.50. The currency is GBP. Requests go into a waiting period of up to 72 hours. After that, PayPal, Apple/Google Pay, or e-wallet withdrawals usually go through within 24 hours. Card and bank transfers, on the other hand, might take 1 to 5 business days to go through. </p>
+                    <ul class="depositList">
+                    </ul>
+                    <p class="depositDescriptionLast">  </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <section class="payMethod">
+          <div class="container">
+            <div class="payMethodBlock block">
+              <h2 class="payMethodTitle title">Payment Methods</h2>
+              <div class="payMethodGroup">
+                <div class="payMethodRow payMethodRowHeader">
+                  <div class="payMethodItem">
+                    <div class="payMethodItemContent payMethodMethod">Method</div>
+                  </div>
+                  <div class="payMethodItem">
+                    <div class="payMethodItemContent">Type</div>
+                  </div>
+                  <div class="payMethodItem">
+                    <div class="payMethodItemContent">Country</div>
+                  </div>
+                  <div class="payMethodItem">
+                    <div class="payMethodItemContent">Commission</div>
+                  </div>
+                  <div class="payMethodItem">
+                    <div class="payMethodItemContent payMethodItemWide">Processing Time</div>
+                  </div>
+                  <div class="payMethodItem">
+                    <div class="payMethodItemContent payMethodItemWide">Minimum Deposit</div>
+                  </div>
+                  <div class="payMethodItem payMethodItemDeposit">
+                    <div class="payMethodItemDeposit">Deposit</div>
+                  </div>
+                </div><!-- Payment rows will be dynamically inserted here -->
+                <div id="paymentRowsContainer"></div>
+              </div><!-- Mobile payment cards will be dynamically inserted here -->
+              <div class="payMethodGroupTwo" id="paymentCardsContainer"></div>
+            </div>
+          </div>
+        </section>
+        <div class="paymentCircleContainer">
+          <section class="providers">
+            <div class="container">
+              <div class="providersBlock block">
+                <div class="providersGroup">
+                  <div class="providersColumn">
+                    <h2 class="providersTitle title"> Software Technologies </h2>
+                    <p class="providersDescription"> Aztec Wins Casino's robust Instant-Play technology enables you play on your PC or mobile device without downloading. It features games from over 20 leading brands, including NetEnt, Microgaming, Pragmatic Play, Evolution, Quickspin, Yggdrasil, Playtech, Blueprint Gaming, and more. This combination of various suppliers and Aztec Wins sister sites ensures over 1,000 high-quality slots, live-dealer tables, bingo rooms, scratchcards, and video poker alternatives. </p>
+                  </div>
+                  <div class="providersColumn">
+                    <h2 class="providersTitle title"> Security </h2>
+                    <p class="providersDescription"> The casino is licensed by the UK and Alderney Gambling Control Commissions for strict control. Standard SSL encryption safeguards player data and transactions. Independent auditors like SQS Quality Testing check RNG and game fairness for integrity. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <section class="">
+          <div class="container">
+            <div class="sprovidersBlock block">
+              <h2 class="sprovidersTitle title"> Software Providers </h2>
+              <div class="sprovidersGroup" id="providersContainer">
+                <!-- Provider images will be dynamically inserted here --></div>
+            </div>
+          </div>
+        </section>
+        <div class="applicationCircleContainer">
+          <section class="application" id="mobile">
+            <div class="container">
+              <div class="applicationBlock block">
+                <h2 class="applicationTitle title"> Casino App </h2>
+                <div class="applicationGroup">
+                  <div class="applicationColumn">
+                    <p class="applicationDescription"> No smartphone or desktop app for Aztec Wins exists. Instead, responsive HTML5 technology enables players play smoothly in contemporary web browsers on PCs, smartphones, and tablets. Browser access is available for all functions, including live casino, bingo, and quick games. </p>
+                    <div class="applicationStoreGroup"><a id="appStoreAppLink" href="/"
+                      aria-label="Play game" target="_blank"><img class="advantagesStore"
+                        width="181" height="53" src="./assets/images/advantages/app-store.webp"
+                        alt="iOs App" /></a><a id="googlePlayAppLink" href="/"
+                        aria-label="Play game" target="_blank"><img class="applicationStore"
+                          width="181" height="54"
+                          src="./assets/images/advantages/google-play.webp"
+                          alt="android App" /></a></div>
+                  </div>
+                  <div class="applicationColumn"><img class="applicationMobilePhone"
+                    src="_assets/images/1752154524_phone2-web.webp" alt="Mobile Application" /></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="idiomas">
+            <div class="container">
+              <div class="idiomasBlock block">
+                <div class="idiomasGroup">
+                  <div class="idiomasColumn">
+                    <h2 class="idiomasTitle title"> Currencies </h2>
+                    <p class="idiomasDescription"> Aztec Wins takes British Pounds Sterling (GBP) and Euros (EUR), so players in different countries can use different currencies. </p>
+                  </div>
+                  <div class="idiomasColumn">
+                    <h2 class="idiomasTitle title"> Languages </h2>
+                    <p class="idiomasDescription"> The site is exclusively available in English, which is its main audience in the UK and other English-speaking areas. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <section class="faq">
+          <div class="container">
+            <div class="faqBlock block">
+              <h2 class="faqTitle title"><span>CASINO FAQ</span></h2>
+              <div class="faqGroup"><input class="faqInput" type="checkbox" id="Can I reverse a withdrawal at Aztec Wins Casino?" /><label
+                class="faqLabel" for="Can I reverse a withdrawal at Aztec Wins Casino?"><span class="gradientContainer"> Can I reverse a withdrawal at Aztec Wins Casino? </span></label>
+                <div class="faqContent">
+                  <p>No, once a withdrawal is requested, it cannot be reversed during the pending period.</p>
+                </div>
+              </div>
+              <div class="faqGroup"><input class="faqInput" type="checkbox" id="Is there a loyalty or VIP program available?" /><label
+                class="faqLabel" for="Is there a loyalty or VIP program available?"><span class="gradientContainer"> Is there a loyalty or VIP program available? </span></label>
+                <div class="faqContent">
+                  <p>Yes, Aztec Wins uses a trophy-based rewards system that unlocks bonuses as you complete achievements.</p>
+                </div>
+              </div>
+              <div class="faqGroup"><input class="faqInput" type="checkbox" id="What types of slots are featured at Aztec Wins?" /><label
+                class="faqLabel" for="What types of slots are featured at Aztec Wins?"><span class="gradientContainer"> What types of slots are featured at Aztec Wins? </span></label>
+                <div class="faqContent">
+                  <p>The casino includes classic 3-reel slots, 5-reel video slots, Megaways, and progressive jackpots.</p>
+                </div>
+              </div>
+              <div class="faqGroup"><input class="faqInput" type="checkbox" id="Are there any deposit fees charged?" /><label
+                class="faqLabel" for="Are there any deposit fees charged?"><span class="gradientContainer"> Are there any deposit fees charged? </span></label>
+                <div class="faqContent">
+                  <p>Most deposit methods are free, but Pay by Mobile may include a carrier fee.</p>
+                </div>
+              </div>
+              <div class="faqGroup"><input class="faqInput" type="checkbox" id="How do I verify my identity for withdrawals?" /><label
+                class="faqLabel" for="How do I verify my identity for withdrawals?"><span class="gradientContainer"> How do I verify my identity for withdrawals? </span></label>
+                <div class="faqContent">
+                  <p>You must submit ID, proof of address, and proof of payment method to complete KYC verification.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="availableGames">
+          <div class="container">
+            <div class="availableGamesBlock block">
+              <h2 class="availableGamesTitle title"> Games Available to Play at Aztec Wins Casino </h2>
+              <p class="availableGamesDescription"> A varied game library at Aztec Wins Casino caters to all tastes. The platform's leading software suppliers assure seamless gameplay, brilliant visuals, and fairness across all titles. The UI lets players browse categories for contemporary video slots, live dealer action, or traditional card games. </p>
+              <div class="availableGamesGroup">
+                <div class="availableGamesColumn">
+                    <div class="availableGamesGame">
+                      <h3 class="availableGamesSubtitle subtitle"> Slot Machines and Jackpots </h3>
+                      <p class="availableGamesDescription"> With over 1,500 games, the slot segment dominates the site. Players can play Aztec Bonanza, Aztec Gems Deluxe, Big Bass Bonanza, and Thunderstruck II. More than 100 Megaways slots provide hundreds of prize combinations with dynamic reels. Some of the 50 progressive slots offer networked jackpots. Game bet levels vary for low-stakes and expert players. </p>
+                    </div>
+                    <div class="availableGamesGame">
+                      <h3 class="availableGamesSubtitle subtitle"> Table Games and Casino Classics </h3>
+                      <p class="availableGamesDescription"> Aztec Wins offers basic RNG table games for typical casino players, however less. European Blackjack, American Roulette, and Casino Solitaire include smooth graphics and simple controls. These games use random number generators for fast-paced gameplay without waiting for other players. The diversity is limited, but it meets the demands of single card and roulette players without live-streaming. </p>
+                    </div>
+                    <div class="availableGamesGame">
+                      <h3 class="availableGamesSubtitle subtitle"> Live Casino Experience </h3>
+                      <p class="availableGamesDescription"> Live casinos immerse players in real-time engagement. Aztec Wins provides high-quality live dealer games with Pragmatic Play, Playtech, and OnAir Entertainment. Professional dealers, HD video broadcasts, and real-time chat are available at several blackjack and roulette tables. Popular varieties include European Roulette, Speed Blackjack, and Live Baccarat. </p>
+                    </div>
+                </div>
+                <div class="availableGamesColumn">
+                    <div class="availableGamesGame">
+                      <h3 class="availableGamesSubtitle subtitle"> Bingo Rooms and Schedule </h3>
+                      <p class="availableGamesDescription"> Bingo is peculiar to Aztec Wins. The platform has nine 75-ball, 80-ball, and 90-ball bingo rooms. Each room has its own schedule, admission fees, and prize pools. This format draws new and experienced bingo players who want a casual, community-oriented game. With clear game, time, and prize information, the bingo interface is easy to use. </p>
+                    </div>
+                    <div class="availableGamesGame">
+                      <h3 class="availableGamesSubtitle subtitle"> Instant Win Games and Scratchcards </h3>
+                      <p class="availableGamesDescription"> Aztec Wins offers instant-win games and scratchcards. These games have simple rules and vivid graphics and typically offer results instantly. Casual users who desire rapid fun without learning are drawn to Scratchcards. They're fun and lighthearted alternatives to slots and live games when gamers wish to shake things up. </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="support">
+          <div class="container">
+            <div class="supportBlock block">
+              <h2 class="supportTitle title"> Support </h2>
+              <div class="supportGroup">
+                <div class="supportColumn">
+                  <p class="supportDescription"> Registered customers can get help from customer service by email and live chat. Unregistered visitors can't use the public Aztec Wins contact number feature, however the site has an extensive FAQ section that answers most typical questions. As a licensed operator, it also gives you access to responsible gambling tools and helplines. </p>
+                  <ul class="supportList">
+                  </ul>
+                  <p class="supportDescription">  </p>
+                </div>
+                <div class="supportColumn"><img class="supportImage" src="_assets/images/1752154816_support-web.webp" 
+                  alt="Support" /></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="bonuses">
+          <div class="container">
+            <div class="bonusesBlock block">
+              <h2 class="bonusesTitle title"> Aztec Wins Casino Bonuses and Promotions </h2>
+              <p class="bonusesDescription"> Aztec Wins Casino has a lot of cash bonuses, free spins, tournaments, and prize drawings for both new and old players. All promos have certain restrictions on how much you may bet and how much you can convert. Here is Aztec Wins review: </p>
+              <div class="bonusesGroup">
+                <div class="bonusesColumn">
+                    <div class="bonusesColumnBonus">
+                      <h3 class="bonusesSubtitle subtitle"> 100% Match-Up Bonus (Welcome Offer) </h3>
+                      <p class="bonusesDescription"> Aztec Wins Casino offers 100% initial deposit match bonuses. This deal matches deposits up to £200. This Aztec Wins casino bonus requires a £10 deposit. Winners must meet a 65× wagering requirement before withdrawing bonus cash. This bonus may only be withdrawn up to the deposit amount, £250. This deal gives new customers a greater starting sum and straightforward withdrawal terms. </p>
+                  </div>
+                    <div class="bonusesColumnBonus">
+                      <h3 class="bonusesSubtitle subtitle"> Bonus + Free Spins with Code “PRO” </h3>
+                      <p class="bonusesDescription"> Free spins are awarded to players who deposit £20 or more with the Aztec Wins promo code “PRO”. The offer gives 50–500 Aztec Wins free spins on chosen slot games, depending on luck. The spin count is random. All spin earnings are converted to bonus dollars and subject to a 65× wagering requirement. This Aztec Wins Casino promotion limits withdrawals to deposits up to £250, like others. Players making greater first deposits benefit from this code-based bonus. </p>
+                  </div>
+                    <div class="bonusesColumnBonus">
+                      <h3 class="bonusesSubtitle subtitle"> Rewards Reel </h3>
+                      <p class="bonusesDescription"> Aztec Wins Casino lets current players ride the Rewards Reel twice daily. This feature gives all funded accounts a chance to win free spins or other bonuses. Aztec Wins no deposit bonus is promptly added to the player's account after each spin. Bonus awards have a 65× wagering requirement before being converted to cash. Winners from the Rewards Reel can withdraw up to £250 of their deposit. Daily Rewards Reel rewards for sustained play keep players engaged. </p>
+                  </div>
+                </div>
+                <div class="bonusesColumn">
+                    <div class="bonusesColumnBonus">
+                      <h3 class="bonusesSubtitle subtitle"> Fluffy Fridays </h3>
+                      <p class="bonusesDescription"> Fluffy Fridays is a weekly promotion from 8-11pm every Friday. During this time, slot game bettors automatically enter a weekly event prize pool. Depending on participation and activity, the prize pool can exceed £1,000. The offer is open to all budgets because there is no minimum bet size. Bonus earnings from Fluffy Fridays have a 65× wagering requirement and a cashout limit of the player's deposit up to £250. Weekly awards are guaranteed in this event with no extra steps. </p>
+                    </div>
+                    <div class="bonusesColumnBonus">
+                      <h3 class="bonusesSubtitle subtitle"> Trophy Rewards &amp; Collect Trophies </h3>
+                      <p class="bonusesDescription"> Trophy Rewards encourage game goals. Trophy achievements include playing a certain number of games or unlocking a special feature. Free spins are awarded for five trophies. These free spins are bonus cash with a 65× wagering requirement. Withdrawals are limited to lifetime deposits and £250, as with other site incentives. Staying active and exploring platform games is encouraged by this strategy. </p>
+                    </div>
+                    <div class="bonusesColumnBonus">
+                      <h3 class="bonusesSubtitle subtitle"> Turbo Reel </h3>
+                      <p class="bonusesDescription"> Players who deposit £100 or more receive the Turbo Reel incentive. The player gets one Turbo Reel spin, which can provide 50–500 free spins on selected slots. Spins are randomly awarded as bonus cash. Spin winnings must meet the 65× wagering requirement, and real-money withdrawals are limited to total deposits with a maximum payout of £250. This program is for high-deposit players who want more incentives with each qualifying transaction. </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="prosAndCons">
+          <div class="container">
+            <div class="prosAndConsBlock block">
+              <h2 class="prosAndConsTitle title"> Aztec Wins Casino Advantages </h2>
+              <p class="prosAndConsDescription"> Aztec Wins Casino has a lot of fun games and features that are meant to appeal to a wide range of gamers. Here is a short Aztec Wins casino review of its pros and cons: </p>
+              <div class="prosAndConsGroup">
+                <div class="prosAndConsColumn">
+                  <h3 class="prosAndConsSubtitle subtitle"> Advantages: </h3>
+                  <ul class="prosAndConsList">
+                      <li class="prosAndConsItem">Wide selection of slots and table games</li>
+                      <li class="prosAndConsItem">Live dealer options available</li>
+                      <li class="prosAndConsItem">Licensed and regulated platform</li>
+                      <li class="prosAndConsItem">User‑friendly interface and mobile compatibility</li>
+                      <li class="prosAndConsItem">Multiple secure payment methods</li>
+                      <li class="prosAndConsItem">Regular promotions and loyalty rewards</li>
+                      <li class="prosAndConsItem">Strong customer support channels</li>
+                  </ul>
+                </div>
+                <div class="prosAndConsColumn">
+                  <h3 class="prosAndConsSubtitle subtitle"> Disadvantages: </h3>
+                  <ul class="prosAndConsList">
+                      <li class="prosAndConsItem">Restricted access in certain jurisdictions</li>
+                      <li class="prosAndConsItem">Wagering requirements on bonuses</li>
+                      <li class="prosAndConsItem">No mobile app (browser‑only access)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <div class="footerContainer">
+        <div class="footerTop">
+          <div class="footerLogoContainer"><a href="/" aria-label="Main page"><img class="footer__logo"
+            src="_assets/images/1752155061_logo" alt="" width="140"
+            height="48" /></a></div>
+          <div class="footerPay">
+            <div class="payBlock"><img class="payElementGrey"
+              src="./assets/images/footer/payment/masterCard.svg" alt="MasterCard" /><img
+                class="payElementColor" src="./assets/images/footer/payment/masterCard--color.svg"
+                alt="MasterCard" /></div>
+            <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/visa.svg"
+              alt="Visa" /><img class="payElementColor"
+                src="./assets/images/footer/payment/visa--color.svg" alt="Visa" /></div>
+            <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/neteller.svg"
+              alt="Neteller" /><img class="payElementColor"
+                src="./assets/images/footer/payment/neteller--color.svg" alt="Neteller" /></div>
+            <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/skrill.svg"
+              alt="Skrill" /><img class="payElementColor"
+                src="./assets/images/footer/payment/skrill--color.svg" alt="Skrill" /></div>
+            <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/bitcoin.svg"
+              alt="Bitcoin" /><img class="payElementColor"
+                src="./assets/images/footer/payment/bitcoin--color.svg" alt="Bitcoin" /></div>
+            <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/litecoin.svg"
+              alt="Litecoin" /><img class="payElementColor"
+                src="./assets/images/footer/payment/litecoin--color.svg" alt="Litecoin" /></div>
+            <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/ethereum.svg"
+              alt="Etherium" /><img class="payElementColor"
+                src="./assets/images/footer/payment/ethereum--color.svg" alt="Etherium" /></div>
+          </div>
+        </div>
+        <div class="footerMiddle">
+          <div class="footerOperator">
+            <div class="operatorBlock"><img class="operatorElementGrey"
+              src="./assets/images/footer/operator/gpwa.svg" alt="GPWA" /><img
+                class="operatorElementColor" src="./assets/images/footer/operator/gpwa--color.svg"
+                alt="GPWA" /></div>
+            <div class="operatorBlock"><img class="operatorElementGrey"
+              src="./assets/images/footer/operator/gambleaware.svg" alt="Gamble Aware" /><img
+                class="operatorElementColor" src="./assets/images/footer/operator/gambleaware--color.svg"
+                alt="Gamble Aware" /></div>
+            <div class="operatorBlock"><img class="operatorElementGrey"
+              src="./assets/images/footer/operator/gamcare.svg" alt="Game care" /><img
+                class="operatorElementColor" src="./assets/images/footer/operator/gamcare--color.svg"
+                alt="Game care" /></div>
+            <div class="operatorBlock"><img class="operatorElementGrey"
+              src="./assets/images/footer/operator/gambling-therapy.svg" alt="Gambling Therapy" /><img
+                class="operatorElementColor"
+                src="./assets/images/footer/operator/gambling-therapy--color.svg" alt="Gambling Therapy" />
+            </div>
+            <div class="operatorBlock"><img class="operatorElementGrey"
+              src="./assets/images/footer/operator/gamban.svg" alt="Gamban" /><img
+                class="operatorElementColor" src="./assets/images/footer/operator/gamban--color.svg"
+                alt="Gamban" /></div>
+            <div class="operatorBlock"><img class="operatorElementGrey"
+              src="./assets/images/footer/operator/betblocker.svg" alt="BetBlocker" /><img
+                class="operatorElementColor" src="./assets/images/footer/operator/betblocker--color.svg"
+                alt="BetBlocker" /></div>
+            <div class="operatorBlock"><img class="operatorElementGrey"
+              src="./assets/images/footer/operator/itech_labs.svg" alt="ITech Labs" /><img
+                class="operatorElementColor" src="./assets/images/footer/operator/itech_labs--color.svg"
+                alt="ITech Labs" /></div>
+            <div class="operatorBlock"><img class="operatorElementGrey"
+              src="./assets/images/footer/operator/ecogra.svg" alt="Ecogra" /><img
+                class="operatorElementColor" src="./assets/images/footer/operator/ecogra--color.svg"
+                alt="Ecogra" /></div>
+          </div>
+        </div>
+        <div class="footerBottom">
+          <div class="footerBottomGroup">
+            <p class="footerBottomAge">18+</p>
+            <p class="footerBottomCopyright">Copyright © 2025 Aztec Wins Casino </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script>
+    var playButtonSrc = "./assets/images/games/playButton.svg"
+    var informationOutlineSrc = "./assets/images/bonuses/information-outline.svg"
+  </script>
+</html>
