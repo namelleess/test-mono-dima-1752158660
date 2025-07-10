@@ -7,9 +7,9 @@ document.addEventListener("DOMContentLoaded", function() {
     providers: [],
   },
     t = {
-      website: "https://api.adkey-seo.com/api/website/get-website/",
+      website: "https://api.adkey-seo.com/api/website/get-website/1017",
       games: "https://api.adkey-seo.com/api/website/get-games/gambling",
-      payments: "https://api.adkey-seo.com/api/website/get-payments/",
+      payments: "https://api.adkey-seo.com/api/website/get-payments/1017",
       providers: "https://api.adkey-seo.com/api/website/get-providers/",
     };
   function n() {
@@ -455,7 +455,7 @@ document.addEventListener("DOMContentLoaded", function() {
   document.addEventListener("DOMContentLoaded", function() {
     const e = new URLSearchParams(window.location.search).get("id");
     if (e) {
-      fetch("https://api.adkey-seo.com/api/website/get-website/")
+      fetch("https://api.adkey-seo.com/api/website/get-website/1017")
         .then((e) => {
           if (!e.ok) throw new Error(`HTTP error! Status: ${e.status}`);
           return e.json();
